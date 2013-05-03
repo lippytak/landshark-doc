@@ -52,8 +52,8 @@ var INPUT_REGEXP = /^\d+$/;
 var STATES = {
   // Initial state, ready for user input
   'ready': {
-    cheatText: "<p>Imagine you’re seeing this poster, and holding your phone in your hand. What would you do?</p><img src='../ux/mocks/physical/business-card.png'>",
-
+    //cheatText: "<p>Imagine you’re seeing this poster, and holding your phone in your hand. What would you do?</p><img src='../ux/mocks/physical/business-card.png'>",
+    cheatText: "<p>Don't forget your CalFresh reports! Text the last FOUR digits of your case number to us and we'll remind you with a text message.</p>",
     onEntry: function() {
       data.waitingForReminders = false;
     }
