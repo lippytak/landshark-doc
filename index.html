@@ -1,20 +1,329 @@
-<!DOCTYPE html>
-
 <meta charset='utf-8'>
-<title>…</title>
+<title>Louisville – Main fellowship project</title>
 
-<script src='mocks/data.js'></script>
-<script src='scripts.js'></script>
+<link href='css/styles.less' rel='stylesheet/less' type='text/css'>
+<script src='js/less-1.3.3.min.js'></script>
 
-<link rel='stylesheet' href='styles.css'></link>
-<link rel='stylesheet' href='mocks/styles.css'></link>
+<script type='text/javascript' src='http://use.typekit.com/frs1xdm.js'></script>
+<script type='text/javascript'>try{Typekit.load();}catch(e){}</script>  
 
-<nav></nav>
+<body>
 
-<div id='content'>
-  <div id='loading'><div>Loading…</div></div>
-</div>
+  <section class='main'>
 
-<script>
-  main();
-</script>
+    <header>
+
+      <h1>
+        “Main fellowship project”
+      </h1>
+
+    </header>
+
+    <section class='body'>
+
+      <h4>
+        <a href='http://www.codeforamerica.org'>Code for America</a> Louisville fellowship team
+      </h4>
+
+      <h1>
+        The problem
+      </h1>
+
+      <a href='images/hall-of-justice.jpg'><img 
+        alt='Hall of Justice in Louisville, Ky.' 
+        title='Hall of Justice in Louisville, Ky.' 
+        class='right' src='images/hall-of-justice.jpg'></a>
+
+      <p>
+        The criminal justice system is <em>complicated.</em> 
+        Most defendants see the judge for only a few minutes at a time, 
+        and are discharged with court-ordered requirements for follow-ups.
+      </p>
+      <p>
+        When those orders are not understood or followed, the citizens risk 
+        entering a <em>cycle of trouble.</em>
+        Individuals who miss court dates often have 
+        warrants issued for their arrest – complicating their lives,
+        resulting in unnecessary jail time, and 
+        adding extra work for administrators. 
+      </p>
+
+      <a href='images/complicated.jpg'><img 
+        alt='Hall of Justice in Louisville, Ky.' 
+        title='Hall of Justice in Louisville, Ky.' 
+        class='left' src='images/complicated.jpg'></a>
+
+      <p>
+        The information that people receive is often
+        written down on <em>hard-to-understand forms</em> or easy-to-lose 
+        reminder cards. Outside of visiting the Hall of Justice, 
+        there is no single point of contact or place for citizens to inquire
+        about their status and their next steps.
+      </p>
+
+      <p>
+        When people fail to appear for court, <em>costs are incurred</em>
+        in all parts of the criminal justice system. Missed court dates 
+        mean judges, prosecutors, defense and support staff must re-process 
+        a missed hearing; warrants must be produced; law enforcement must 
+        arrest and transport defendants to jail; and the corrections must book and 
+        detain them. 
+      </p>
+
+      <h1>
+        Statistics 
+      </h1>
+
+      <p class='stat'>
+        In Jefferson County, Ky:
+      </p>
+
+      <p class='stat'>
+        <span class='number'>
+          <span>
+            <dfn>Failure to appear rate:</dfn>
+            <span class='digits'>18<span class='perc'>%</span></span>
+          </span>
+        </span>
+        Throughout 2012, defendants failed to appear (FTA) in court 18% of the time.
+      </p>
+
+      <p class='stat'>
+        <span class='number'>
+          <span>
+            <dfn>F.T.A. warrants:</dfn>
+            <span class='digits'>522</span>
+            <dfn>in a week</dfn>
+          </span>
+        </span>
+        During the week of 12 June 2012, 522 bench warrants were
+        issued for failing to appear in court.
+      </p>
+
+      <p class='stat'>
+        <span class='number'>
+          <span>
+            <dfn>Jail occupancy:</dfn>
+            <span class='digits'>112<span class='perc'>%</span></span>
+          </span>
+        </span>
+        In the second week of March 2013, the main Louisville Metro jail complex 
+        hosted 1,521 inmates, with a rated capacity of 1,353 beds.
+      </p>
+
+      <h1 class='left'>
+        Our goal
+      </h1>
+
+      <img src='images/phone-mock.png' style='width: 300px; margin-top: -157px; float: right'>
+
+      <h3 class='wide'>
+        To build 
+        a system that helps people resolve their court cases 
+        by reminding them of upcoming court dates, providing respectful
+        and helpful 
+        instructions, and explaining the consequences of the available choices.
+        By using modern technology and good design, we can help people fulfill
+        their court-ordered responsibilities and stay out of trouble.
+      </h3>
+
+      <h1>
+        Why this idea?
+      </h1>
+
+      <ul>
+        <li>
+          <em>Nothing like this exists yet.</em>
+          While some programs to remind people of court dates exist, they 
+          are rare, use earlier technologies (such as postcards),
+          or are not focused primarily on defendants.
+        <li>
+          <em>The ripple effect.</em>
+          When defendants fail to appear in court, it affects judges, 
+          prosecutors, defense attorneys, law enforcement, and 
+          corrections. Decreasing failure to appear (FTA) rates has the potential 
+          to reduce burden for all parts of the criminal justice system.
+        <li>
+          <em>Building upon prior research and contributing to it.</em>
+          Existing research suggests that court date reminders can 
+          result in reductions in the FTA rates. We are reviewing that 
+          research, and we hope to collaborate on and learn from Arnold 
+          Foundation’s upcoming pilot study that will test various variants 
+          of court date reminders.
+        <li>
+          <em>Opening up the data.</em>
+          In Kentucky, court date information is primarily stored in a 
+          statewide database maintained by the Administrative Office of 
+          the Courts. We hope to connect with AOC databases and pave 
+          the way for other stakeholders to more efficiently use the wealth 
+          of information contained in that central system. 
+        <li>
+          <em>Using modern standards and technologies.</em>
+          We are looking at this project as an opportunity to use and showcase
+          modern technologies, open-source methodologies, 
+          and data interchange standards.
+        <li>
+          <em>Reusability.</em>
+          Failures to appear are a national problem. Our solution will be
+          built and documented to be easily replicated in other counties 
+          and states.
+        <li>
+          <em>Extensibility.</em>
+          In the future, the system could be further extended to include
+          more information (warrants, fees), more functionality (supporting
+          the involvement of family or community members), and more media
+          (emails, Facebook messages, automated calls).
+      </ul>
+
+      <h1>
+        Prior research and projects
+      </h1>
+
+      <p>
+        <div class='usa'>
+          <div class='pin' style='left: 32px; top: 40px'></div>
+          <div class='pin' style='left: 170px; top: 140px'></div>
+          <div class='pin' style='left: 100px; top: 181px'></div>
+          <div class='pin' style='left: 41px; top: 23px'></div>
+          <div class='pin' style='left: 177px; top: 137px'></div>
+          <div class='pin' style='left: 248px; top: 121px'></div>
+        </div>
+      </p>
+
+      <ul class='square'>
+        <li>
+          <em>Multnomah County, Ore.</em> 
+          The automatic system calling defendants resulted in
+          <a href='http://www2.co.multnomah.or.us/County_Management/Budget/Budget%20Office%20Evaluation/Reports/Public%20Safety%20Research/CANS%20Highlights.pdf'><b>17–41%</b> reduction</a> in the FTA rate and
+          <b>$1.55 million</b> estimated annual cost efficiency in FY07.
+        <li>
+          <em>Coconino County, Ariz.</em> 
+          Volunteers calling misdemeanor defendants and reminding them of 
+          their cases 
+          in 2006 resulted in <a href='http://www.thecourtbrothers.com/fta_repo/Coconino_County_court_hearing_notification_project.pdf'><b>4–19%</b> reduction</a> in the FTA rate.
+        <li>
+          <em>Jefferson County, Colo.</em> 
+          The court notification volunteer calls
+          in 2005 resulted in <a href='http://www.thecourtbrothers.com/fta_repo/Jefferson_County_6_month_summary.pdf'><b>52%</b> reduction</a> in the FTA rate.
+        <li>
+          <em>Lincoln, Neb.</em> 
+          The 2009–2010 pilot study using postcards 
+          resulted in <a href='http://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1008&context=publicpolicyfacpub'><b>11–35%</b> reduction</a> in the FTA rate.
+        <li>
+          <em>King County, Wash.</em> 
+          In 2000, volunteers calling defendants in Dictrict Court 
+          resulted in
+          <a href='http://cdm16501.contentdm.oclc.org/cdm/ref/collection/ctadmin/id/437'><b>1–22%</b> reduction</a> in the FTA rate.
+        <li>
+          <em>Arapahoe County, Colo.</em> 
+          The volunteer phone call system started in 2006 resulted in
+          <a href='http://www.co.arapahoe.co.us/Departments/CS/JudicialServices/Court%20Date%20Notification%20Program.asp'><b>54-62%</b> reduction</a> in the FTA rate in 2009, and a corresponding “decrease of 6,839 jail bed days at an approximate cost of $68 a day, which translates into a savings of $465,052 of taxpayer dollars.”
+      </ul>
+
+      <h1>
+        Specific goals and metrics
+      </h1>
+
+      <p>
+        Failures to appear can impact victims and the willingness of witnesses to testify;
+        result in longer jail
+        stays for defendants on future offenses and loss of revenues 
+        from unpaid fees and fines; add to frustration that “the system 
+        doesn’t work”; undermine the integrity of the justice system.
+      </p>
+      <p>
+        Therefore, <em>reducing FTA rates</em> is one of our two primary 
+        objectives. It could help cut down costs and time spent on low-risk 
+        offenders and allow for more resources to be devoted to dealing 
+        with major issues and violent crime.
+      </p>
+      <p>
+        The other primary objective is to <em>help citizens understand court 
+        orders</em> and the processes of justice by providing easy-to-follow,
+        customized, actionable instructions.
+      </p>
+
+      <h1>
+        Challenges
+      </h1>
+
+      <ul>
+        <li>
+          <em>Reaching to and understanding the defendants.</em>
+          In order to build a system helping people, we need to understand
+          them and their needs. 
+        <li>
+          <em>Issues of trust and social stigma.</em>
+          How can we frame the collection of personal information (such as
+          cell phone numbers or emails) in a way that’s effective and eases 
+          the concerns about privacy?
+        <li>
+          <em>Choosing appropriate technology.</em>
+          Our choice of text messages, email, Facebook, and/or a separate
+          website will depend on defendants’ access to and understanding 
+          of those technologies.
+        <li>
+          <em>Access interfaces to databases.</em>
+          We need to architect a failure-proof, easy-to-maintain interface to 
+          the existing databases.
+      </ul>
+
+      <h1>
+        Timeline
+      </h1>
+
+      <p>
+        We will be working on this project throughout the fellowship 
+        year, with the first development cycle finishing in late April/early
+        May of 2013. 
+      </p>
+
+      <h1>
+        Updates
+      </h1>
+
+      <ul>
+        <li>
+          April 1, 2013: 
+          <a href='https://docs.google.com/a/codeforamerica.org/presentation/d/1U1O50GMGtTQIqlmF85qP8pVGuEBTGNVGFssmRym2DRI/edit#slide=id.p'>Fellowship update №1</a> slide deck
+
+        <li>
+          April 12, 2013: 
+          <a href='https://docs.google.com/a/codeforamerica.org/presentation/d/1ME79jbI2nKqtme2MGjoRLx-Hf4FG3ygGtTkfYcw4-Pw/edit#slide=id.p'>Fellowship update №2</a> slide deck
+
+        <li>
+          April 12, 2013:
+          <a href='ux'>UX mini-site with mock-ups for v1 and further on</a>
+
+
+      </ul>
+
+      <footer>
+        <p>
+          Last updated: April 18, 2013.
+        </p>
+        <ul class='links'>
+          <li>
+            <a href='mailto:louisville@codeforamerica.org'>Contact us via email</a>
+          <li>
+            <a href='http://bourbonplanners.tumblr.com/'>Our informal work-in-progress blog</a>
+          <li>
+          Our newsletters:
+            <a href='http://us6.campaign-archive1.com/?u=cacd191d3a3a7ae3334a26b4e&id=3d1859d31b'>№1</a>
+            <a href='http://us6.campaign-archive2.com/?u=cacd191d3a3a7ae3334a26b4e&id=a8d8af2759&e=d8342502dd'>№2</a>
+            <a href='http://us6.campaign-archive1.com/?u=cacd191d3a3a7ae3334a26b4e&id=e26155ae67&e=701d35d66e'>№3</a>
+            <a href='http://us6.campaign-archive1.com/?u=cacd191d3a3a7ae3334a26b4e&id=bb1346d47b&e=8b2edff857'>№4</a> 
+        </ul>
+        <p class='cfa-flagtag'>
+          Code for America
+          <br>
+          <a target='_blank' href='http://www.codeforamerica.org'
+             alt='Code for America' title='Code for America'>
+            <img src='images/cfa-flag-tag.png'>
+          </a>
+        </p>
+      </footer>
+    </section>
+  </section>
+
+</body>

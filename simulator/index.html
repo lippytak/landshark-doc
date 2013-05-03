@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<title>Landshark UX simulator</title>
+<meta charset='utf-8'>
+
+<script src='js/data.js'></script>
+<script src='js/scripts.js'></script>
+
+<link href='css/styles.less' rel='stylesheet/less' type='text/css'>
+<script src='../js/less-1.3.3.min.js'></script>
+<script src='../js/jquery-1.9.1.min.js'></script>
+
+<body>
+
+  <div id='master-canvas'>
+
+    <div id='canvas'>
+
+      <div id='phone-background'>
+        <div id='phone'>
+          <div id='info'>
+            Texting with: (415) 555-5555
+          </div>
+          <div id='content'></div>
+          <input autofocus type='text' id='input'>
+          <button id='send'>Send</button>
+        </div>
+      </div>
+
+      <div id='cheat-sheet'>
+      </div>
+
+      <div id='cheat-sheet-case-numbers'>
+        <p>
+          Example inputs:
+        </p>
+        <ul>
+          <li>4444
+          <li>2222
+          <li>123 (invalid case number)
+          <li>1111 (phone number mismatch)
+          <li>3333 (missing report date)
+          <li>hello (someone is confused...)
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    main();
+  </script>
+</body>
